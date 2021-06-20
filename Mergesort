@@ -61,7 +61,7 @@ int main()
 	    
 	    }
 	    st = clock();
-	    quicksort(a,1,n);	    
+	    mergesort(a,1,n);	    
 	    et=clock();
 	    
 	    printf("Sorted numbers\n");
